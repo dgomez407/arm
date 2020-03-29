@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "changeme"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "adminPasswordOrKey": {
+            "value": "changeme!23"
+        },
+        "ubuntuOSVersion": {
+            "value": "18.04-LTS"
+        },
+        "VmSize": {
+            "value": "Standard_B2s"
+        },
+        "virtualNetworkName": {
+            "value": "essentials-vnet"
+        },
+        "subnetName": {
+            "value": "mgt-subnet"
+        },
+        "networkSecurityGroupName": {
+            "value": "Mgt-to-FW-NSG"
+        }
+    }
+}
